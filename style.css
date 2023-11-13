@@ -211,16 +211,16 @@ header {
   background-size: center;
 }
 #homepage .menus .card__image1 {
-  background-image: url(/images/restaurants/menu1.jpg);
+  background-image: url(./images/restaurants/menu1.jpg);
 }
 #homepage .menus .card__image2 {
-  background-image: url(/images/restaurants/menu2.jpg);
+  background-image: url(./images/restaurants/menu2.jpg);
 }
 #homepage .menus .card__image3 {
-  background-image: url(/images/restaurants/menu3.jpg);
+  background-image: url(./images/restaurants/menu3.jpg);
 }
 #homepage .menus .card__image4 {
-  background-image: url(/images/restaurants/menu4.jpg);
+  background-image: url(./images/restaurants/menu4.jpg);
 }
 #homepage .menus .card__description {
   position: relative;
@@ -329,8 +329,10 @@ body {
   display: block;
   width: 100%;
   height: 70vh;
-  object-fit: cover;
-  object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 #page-resto .resto__title {
   margin-top: -2rem;

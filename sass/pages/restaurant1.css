@@ -36,8 +36,10 @@ body {
   display: block;
   width: 100%;
   height: 70vh;
-  object-fit: cover;
-  object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 #page-resto .resto__title {
   margin-top: -2rem;

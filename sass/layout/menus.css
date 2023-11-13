@@ -34,16 +34,16 @@
   background-size: center;
 }
 #homepage .menus .card__image1 {
-  background-image: url(/images/restaurants/menu1.jpg);
+  background-image: url(./images/restaurants/menu1.jpg);
 }
 #homepage .menus .card__image2 {
-  background-image: url(/images/restaurants/menu2.jpg);
+  background-image: url(./images/restaurants/menu2.jpg);
 }
 #homepage .menus .card__image3 {
-  background-image: url(/images/restaurants/menu3.jpg);
+  background-image: url(./images/restaurants/menu3.jpg);
 }
 #homepage .menus .card__image4 {
-  background-image: url(/images/restaurants/menu4.jpg);
+  background-image: url(./images/restaurants/menu4.jpg);
 }
 #homepage .menus .card__description {
   position: relative;
